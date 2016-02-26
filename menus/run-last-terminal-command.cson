@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Run Last Terminal Command'
+      'submenu': [
+        {
+          'label': 'Run'
+          'command': 'run-last-terminal-command:run'
+        }
+      ]
+    ]
+  }
+]

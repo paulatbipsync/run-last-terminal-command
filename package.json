@@ -1,0 +1,22 @@
+{
+  "name": "run-last-terminal-command",
+  "main": "./lib/run-last-terminal-command",
+  "version": "0.1.0",
+  "description": "Runs the previous command in the foreground Terminal.app windows selected tab",
+  "keywords": [
+      "terminal",
+      "osx",
+      "terminal.app",
+      "previous",
+      "runner",
+      "last"
+  ],
+  "activationCommands": {
+    "atom-workspace": "run-last-terminal-command:run"
+  },
+  "repository": "https://github.com/paulatbipsync/run-last-terminal-command",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
