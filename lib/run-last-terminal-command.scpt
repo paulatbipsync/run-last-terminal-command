@@ -3,7 +3,7 @@ tell application "Terminal"
         repeat with t in tabs of w
             if selected in t then
                 do script "!!" in t
-                quit
+                return
             end if
         end repeat
     end repeat
